@@ -1,9 +1,9 @@
 public class Quique{
-  integer a=0;
+  int a=0;
   public void Quique (){
       a=1;
   }
-  public integer getNro()
+  public int getNro()
   {
    return a; 
   }
