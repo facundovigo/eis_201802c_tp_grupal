@@ -1,5 +1,11 @@
 public class Quique{
-  public void Quique (string){
-      a=a+1;
+  integer a=0;
+  public void Quique (){
+      a=1;
   }
+  public integer getNro()
+  {
+   return a; 
+  }
+  
 }
