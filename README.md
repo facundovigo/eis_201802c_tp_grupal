@@ -68,4 +68,4 @@ Programación orientada a objetos + ATDD
 [2]: http://bomberman.wikia.com/wiki/Bagura
 
 
-[![Code Coverage](https://img.shields.io/codecov/c/github/pvorb/property-providers/develop.svg)](https://codecov.io/github/pvorb/property-providers?branch=develop)
+[![Code Coverage](https://img.shields.io/codecov/c/github/pvorb/property-providers/develop.svg)](https://codecov.io/github/pvorb/property-providers?branch=master)
