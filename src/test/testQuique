@@ -1,9 +1,0 @@
-public testQuique
-{
-  public testPrimero
-  {
-    Quique a = new Quique();
-    assertEquals(1,a.getNro());
-  }
-
-}
