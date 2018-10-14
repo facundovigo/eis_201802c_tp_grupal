@@ -14,7 +14,7 @@ Ejercitar la escritura de código en ambientes colaborativos utilizando una meto
 
 Nro | Nombre | Legajo | Mail
 ----|--------|--------|------
-1   | Enrique|1234	alonso.em@gmail.com
+1   | Enrique|1234	  | alonso.em@gmail.com
 2   |        |        |
 3   |        |        |
 4   |        |        |
@@ -66,3 +66,6 @@ Programación orientada a objetos + ATDD
 [1]: https://travis-ci.org/
 [3]: https://codecov.io/gh
 [2]: http://bomberman.wikia.com/wiki/Bagura
+
+
+[![Code Coverage](https://img.shields.io/codecov/c/github/pvorb/property-providers/develop.svg)](https://codecov.io/github/pvorb/property-providers?branch=develop)
