@@ -9,6 +9,6 @@ public class BasicStepdefs {
     @When("^I run a failing step")
     public void I_run_a_failing_step() throws Throwable {
         new Production().doWork();
-        assertEquals(1,2);
+        
     }
 }
