@@ -1,4 +1,7 @@
 Feature: Gradle-Cucumber integration
 
-  Scenario: Just a failing scenario
-    When I run a failing step
+  Scenario:  Bomberman Se mueve a una celda contigua y la celda esta vacia
+    Given Un mapa
+    Given una celda vacia a derecha
+    When cuando se mueve a una celda vacia
+    Then Bomberman cambia su posicion
