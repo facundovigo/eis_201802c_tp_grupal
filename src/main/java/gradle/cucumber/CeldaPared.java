@@ -8,4 +8,7 @@ public class CeldaPared extends Celda {
     public boolean esVacia() {
         return false;
     }
+    public boolean esEnemigo() {
+        return false;
+    }
 }

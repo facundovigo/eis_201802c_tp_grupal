@@ -10,7 +10,8 @@ public class Celda {
         return true;
     }
 
+
     public boolean esEnemigo() {
-        return true;
+        return false;
     }
 }
