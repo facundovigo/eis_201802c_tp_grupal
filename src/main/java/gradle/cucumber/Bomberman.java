@@ -2,14 +2,23 @@ package gradle.cucumber;
 
 public class Bomberman {
 
+    private Celda celdaActual;
 
-
-    public Bomberman() {
-
+    public Bomberman()
+    {
 
     }
 
-    public void moverADerecha(Mapa mapa) {
-        mapa.moverADerecha(this);
+    public void moverse(Celda celdaDestino)
+    {
+        celdaActual=celdaDestino;
+    }
+
+    public Celda getCeldaActual() {
+        return celdaActual;
+    }
+
+    public boolean estaMuerto() {
+        return celdaActual.esEnemigo();
     }
 }
