@@ -20,3 +20,10 @@ Feature: Gradle-Cucumber integration
     Given Bomberman en una celda del mapa
     When cuando se mueve a la celda contigua
     Then Bomberman muere
+
+  Scenario:  Bomberman suelta una bomba en el sitio donde esta
+    Given Un mapa
+    Given una celda donde hay una pared de melamina
+    Given Bomberman en una celda del mapa
+    When cuando deja bomba
+    Then Rompe la pared de melamina

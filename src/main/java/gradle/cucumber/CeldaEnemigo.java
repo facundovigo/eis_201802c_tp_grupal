@@ -2,8 +2,8 @@ package gradle.cucumber;
 
 public class CeldaEnemigo extends Celda {
 
-    public CeldaEnemigo()
-    {
+    public CeldaEnemigo(){
+        super(0,0);
 
     }
     public boolean esVacia()
